@@ -13,24 +13,33 @@ abstract class BaseCurrency
     public $symbol = '?';
     public $decimalUnit = '.';
     public $thousands = ',';
+    public $rate = 1;
 }
 
 class GBP extends BaseCurrency
 {
     public $symbol = "£";
+    public $rate = 0.656179;
 
 }
 
 class USD extends BaseCurrency
 {
     public $symbol = "$";
+    public $rate = 1;
 
 }
 
 class BTC extends BaseCurrency
 {
     public $symbol = "Ƀ";
+    public $rate = 0.0044925386;
 
+}
+
+class IMC extends BaseCurrency
+{
+    public $rate = 2;
 }
 
 class Abacus {
@@ -61,6 +70,21 @@ class Abacus {
     public function format()
     {
         return $this->currency->symbol . $this->__toString();
+    }
+
+    public function to($currency)
+    {
+        // Get the new Currency Model
+        $currency = "Abacus\\$currency";
+        $currency = new $currency;
+
+        // New currency = Current / rate * new rate
+        $this->value = $this->value / $this->currency->rate * $currency->rate;
+
+        // Update the currency of the Abacus model
+        $this->currency = new $currency;
+
+        return $this;
     }
 
 }
