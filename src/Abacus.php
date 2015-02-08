@@ -11,9 +11,15 @@ namespace Abacus;
 abstract class BaseCurrency
 {
     public $symbol = '?';
+    public $name = 'BCU';
     public $decimalUnit = '.';
     public $thousands = ',';
     public $rate = 1;
+
+    public function __toString()
+    {
+        return $this->name;
+    }
 }
 
 class GBP extends BaseCurrency
@@ -87,11 +93,11 @@ class Abacus {
      * of any currency to the current abacus object. Either way, this results
      * in an Abacus object of the original currency
      *
-     * @param Abacus|float|null $value
+     * @param Abacus|float $value
      * @param string|null $currency
      * @return $this
      */
-    public function add($value = null, $currency = null)
+    public function add($value, $currency = null)
     {
         if (is_a($value, "Abacus\\Abacus")) {
             // If adding an Abacus object
@@ -118,16 +124,24 @@ class Abacus {
      * exact opposite of the ->add() function, but with a cheeky
      * reversed sign
      *
-     * @param Abacus|float|null $value
+     * @param Abacus|float $value
      * @param string|null $currency
      * @return Abacus
      */
-    public function sub($value = null, $currency = null)
+    public function sub($value, $currency = null)
     {
         // Cheeky cheeky
         return $this->add(-$value, $currency);
     }
 
+    /**
+     * Convert to a currency
+     *
+     * Convert the Abacus object from one currency to another.
+     *
+     * @param string $currency
+     * @return $this
+     */
     public function to($currency)
     {
         // Get the new Currency Model
