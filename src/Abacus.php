@@ -18,6 +18,8 @@ abstract class BaseCurrency
 
 class GBP extends BaseCurrency
 {
+    public $name = "GBP";
+    public $description = "Great British Pounds";
     public $symbol = "£";
     public $rate = 0.656179;
 
@@ -25,6 +27,8 @@ class GBP extends BaseCurrency
 
 class USD extends BaseCurrency
 {
+    public $name = "USD";
+    public $description = "United States Dollars";
     public $symbol = "$";
     public $rate = 1;
 
@@ -32,6 +36,8 @@ class USD extends BaseCurrency
 
 class BTC extends BaseCurrency
 {
+    public $name = "BTC";
+    public $description = "Bitcoins";
     public $symbol = "Ƀ";
     public $rate = 0.0044925386;
 
@@ -39,6 +45,8 @@ class BTC extends BaseCurrency
 
 class IMC extends BaseCurrency
 {
+    public $name = "IMC";
+    public $description = "IMaginary Currency";
     public $rate = 2;
 }
 
@@ -70,6 +78,54 @@ class Abacus {
     public function format()
     {
         return $this->currency->symbol . $this->__toString();
+    }
+
+    /**
+     * Add two currencies together.
+     *
+     * Either add a float to an Abacus object, or add another Abacus object
+     * of any currency to the current abacus object. Either way, this results
+     * in an Abacus object of the original currency
+     *
+     * @param Abacus|float|null $value
+     * @param string|null $currency
+     * @return $this
+     */
+    public function add($value = null, $currency = null)
+    {
+        if (is_a($value, "Abacus\\Abacus")) {
+            // If adding an Abacus object
+            // Convert the object to the current object's currency and
+            // add it to the current object
+            $this->value += $value->to($this->currency->name)->value;
+        } else {
+            if (isset($currency)) {
+                $value = new Abacus($value, $currency);
+            } else {
+                $value = new Abacus($value, $this->currency->name);
+            }
+            return $this->add($value);
+        }
+
+        // Return the object
+        return $this;
+    }
+
+    /**
+     * Subtract from a currency
+     *
+     * Subtract an Abacus object or a float from an Abacus object. The
+     * exact opposite of the ->add() function, but with a cheeky
+     * reversed sign
+     *
+     * @param Abacus|float|null $value
+     * @param string|null $currency
+     * @return Abacus
+     */
+    public function sub($value = null, $currency = null)
+    {
+        // Cheeky cheeky
+        return $this->add(-$value, $currency);
     }
 
     public function to($currency)
