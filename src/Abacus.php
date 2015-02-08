@@ -8,6 +8,8 @@
 
 namespace Abacus;
 
+use Abacus\Currency;
+
 abstract class BaseCurrency
 {
     public $symbol = '?';
@@ -64,7 +66,7 @@ class Abacus {
      * @param float $value
      * @param string|null $currency
      */
-    public function __construct($value = null, $currency = null)
+    public function __construct($value = null, $currency = "GBP")
     {
         if (is_null($currency)) {
             $currency = new GBP;
