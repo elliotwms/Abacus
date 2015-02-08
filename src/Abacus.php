@@ -131,6 +131,9 @@ class Abacus {
     public function sub($value, $currency = null)
     {
         // Cheeky cheeky
+        if (is_a($value, "Abacus\\Abacus")) {
+            return $this->add(-$value->value, $currency);
+        }
         return $this->add(-$value, $currency);
     }
 
