@@ -1,14 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: elliot
- * Date: 08/02/15
- * Time: 1:08 PM
- */
 
 namespace Abacus;
 
 use Abacus\Currency;
+use GuzzleHttp;
 
 abstract class BaseCurrency
 {
@@ -58,6 +53,10 @@ class IMC extends BaseCurrency
     public $rate = 2;
 }
 
+/**
+ * Class Abacus
+ * @package Abacus
+ */
 class Abacus {
 
     /**
@@ -160,6 +159,57 @@ class Abacus {
         $this->currency = new $currency;
 
         return $this;
+    }
+
+    public static function update($key)
+    {
+        if (!$latest = self::_fetchAPI($key)) {
+            return false;
+        };
+
+        $currencies = self::_getCurrencies();
+
+        foreach ($latest['rates'] as $key => $rate) {
+            if ($currencies->$key) {
+                $currencies->$key->rate = $rate;
+            }
+        }
+
+        return self::_setCurrencies($currencies, $latest['timestamp']);
+    }
+
+    private static function _fetchAPI($key)
+    {
+        $guzzle = (new GuzzleHttp\client())
+            ->get('http://openexchangerates.org/api/latest.json', ['query' => ['app_id' => $key]]);
+
+        return $guzzle->json();
+    }
+
+    private static function _getCurrencies()
+    {
+        return json_decode(file_get_contents(__DIR__ . "/../currencies.json"));
+    }
+
+    /**
+     * Set Currencies
+     *
+     * Write the currencies, along with their exchange rates to
+     * the exchange.json file in the ~/storage directory.
+     *
+     * @param \stdClass     $currencies
+     * @param int|null      $timestamp
+     *
+     * @return int
+     */
+    private static function _setCurrencies(\stdClass $currencies, $timestamp = null)
+    {
+        $file = new \stdClass();
+
+        $file->updated = (new \DateTime)->setTimestamp($timestamp);
+        $file->currencies = $currencies;
+
+        return file_put_contents(__DIR__."/../storage/exchange.json", json_encode($file));
     }
 
 }

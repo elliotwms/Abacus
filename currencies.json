@@ -1,0 +1,1178 @@
+{
+  "AED": {
+    "rate": 3.6733,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AFN": {
+    "rate": 57.33795,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ALL": {
+    "rate": 123.171299,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AMD": {
+    "rate": 477.234002,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ANG": {
+    "rate": 1.78952,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AOA": {
+    "rate": 104.720749,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ARS": {
+    "rate": 8.66001,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AUD": {
+    "rate": 1.284933,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AWG": {
+    "rate": 1.79,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "AZN": {
+    "rate": 0.78315,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BAM": {
+    "rate": 1.72831,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BBD": {
+    "rate": 2,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BDT": {
+    "rate": 77.85909,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BGN": {
+    "rate": 1.7274,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BHD": {
+    "rate": 0.37717,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BIF": {
+    "rate": 1570.001667,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BMD": {
+    "rate": 1,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BND": {
+    "rate": 1.35177,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BOB": {
+    "rate": 6.90952,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BRL": {
+    "rate": 2.78247,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BSD": {
+    "rate": 1,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BTC": {
+    "rate": 0.0044925386,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BTN": {
+    "rate": 61.790175,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BWP": {
+    "rate": 9.507681,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BYR": {
+    "rate": 15443.333333,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "BZD": {
+    "rate": 1.99832,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CAD": {
+    "rate": 1.253349,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CDF": {
+    "rate": 929.6405,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CHF": {
+    "rate": 0.926739,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CLF": {
+    "rate": 0.02477,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CLP": {
+    "rate": 626.946299,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CNY": {
+    "rate": 6.225212,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "COP": {
+    "rate": 2382.779964,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CRC": {
+    "rate": 539.094,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CUP": {
+    "rate": 1.002613,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CVE": {
+    "rate": 96.955537,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "CZK": {
+    "rate": 24.47354,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "DJF": {
+    "rate": 178.741119,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "DKK": {
+    "rate": 6.57426,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "DOP": {
+    "rate": 44.85606,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "DZD": {
+    "rate": 93.162981,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "EEK": {
+    "rate": 13.82245,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "EGP": {
+    "rate": 7.625279,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ERN": {
+    "rate": 15.144375,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ETB": {
+    "rate": 20.32551,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "EUR": {
+    "rate": 0.883526,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "FJD": {
+    "rate": 2.034572,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "FKP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GBP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GEL": {
+    "rate": 1.7655,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GGP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GHS": {
+    "rate": 3.37952,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GIP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GMD": {
+    "rate": 43.00236,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GNF": {
+    "rate": 7210.725,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GTQ": {
+    "rate": 7.65316,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "GYD": {
+    "rate": 206.766627,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "HKD": {
+    "rate": 7.752792,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "HNL": {
+    "rate": 21.14126,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "HRK": {
+    "rate": 6.80134,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "HTG": {
+    "rate": 46.61098,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "HUF": {
+    "rate": 270.389503,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "IDR": {
+    "rate": 12636.483398,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ILS": {
+    "rate": 3.89312,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "IMP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "INR": {
+    "rate": 61.97185,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "IQD": {
+    "rate": 1183.683333,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "IRR": {
+    "rate": 27530.666667,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ISK": {
+    "rate": 131.848,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "JEP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "JMD": {
+    "rate": 115.808,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "JOD": {
+    "rate": 0.709868,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "JPY": {
+    "rate": 119.1345,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KES": {
+    "rate": 91.4096,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KGS": {
+    "rate": 60.6877,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KHR": {
+    "rate": 4062.03655,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KMF": {
+    "rate": 434.715662,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KPW": {
+    "rate": 900,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KRW": {
+    "rate": 1095.293348,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KWD": {
+    "rate": 0.295374,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KYD": {
+    "rate": 0.828521,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "KZT": {
+    "rate": 185.49,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LAK": {
+    "rate": 8111.316732,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LBP": {
+    "rate": 1509.833333,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LKR": {
+    "rate": 133.143101,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LRD": {
+    "rate": 84.765551,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LSL": {
+    "rate": 11.50592,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LTL": {
+    "rate": 2.980312,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LVL": {
+    "rate": 0.620937,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "LYD": {
+    "rate": 1.36625,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MAD": {
+    "rate": 9.56077,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MDL": {
+    "rate": 18.6046,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MGA": {
+    "rate": 2814.43335,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MKD": {
+    "rate": 54.1439,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MMK": {
+    "rate": 1027.566659,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MNT": {
+    "rate": 1945.333333,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MOP": {
+    "rate": 7.998635,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MRO": {
+    "rate": 291.875,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MTL": {
+    "rate": 0.683738,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MUR": {
+    "rate": 32.9498,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MVR": {
+    "rate": 15.29398,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MWK": {
+    "rate": 455.046999,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MXN": {
+    "rate": 14.84554,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MYR": {
+    "rate": 3.54901,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "MZN": {
+    "rate": 33.733075,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NAD": {
+    "rate": 11.50592,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NGN": {
+    "rate": 194.018001,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NIO": {
+    "rate": 26.6473,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NOK": {
+    "rate": 7.624204,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NPR": {
+    "rate": 98.76009,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "NZD": {
+    "rate": 1.358951,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "OMR": {
+    "rate": 0.384964,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PAB": {
+    "rate": 1,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PEN": {
+    "rate": 3.06956,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PGK": {
+    "rate": 2.625397,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PHP": {
+    "rate": 44.21306,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PKR": {
+    "rate": 101.176001,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PLN": {
+    "rate": 3.67382,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "PYG": {
+    "rate": 4771.203353,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "QAR": {
+    "rate": 3.64158,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "RON": {
+    "rate": 3.895139,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "RSD": {
+    "rate": 107.61,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "RUB": {
+    "rate": 66.85222,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "RWF": {
+    "rate": 692.268,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SAR": {
+    "rate": 3.752519,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SBD": {
+    "rate": 7.814404,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SCR": {
+    "rate": 14.11577,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SDG": {
+    "rate": 5.959825,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SEK": {
+    "rate": 8.407762,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SGD": {
+    "rate": 1.353102,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SHP": {
+    "rate": 0.656179,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SLL": {
+    "rate": 4330.416667,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SOS": {
+    "rate": 707.300922,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SRD": {
+    "rate": 3.3302,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "STD": {
+    "rate": 21566.5,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SVC": {
+    "rate": 8.76693,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SYP": {
+    "rate": 194.514999,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "SZL": {
+    "rate": 11.4943,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "THB": {
+    "rate": 32.63756,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TJS": {
+    "rate": 5.39215,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TMT": {
+    "rate": 2.850285,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TND": {
+    "rate": 1.93215,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TOP": {
+    "rate": 2.010386,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TRY": {
+    "rate": 2.474346,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TTD": {
+    "rate": 6.35079,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TWD": {
+    "rate": 31.61088,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "TZS": {
+    "rate": 1833.883341,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "UAH": {
+    "rate": 25.25,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "UGX": {
+    "rate": 2866.666667,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "USD": {
+    "rate": 1,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "UYU": {
+    "rate": 24.43642,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "UZS": {
+    "rate": 2448.419961,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "VEF": {
+    "rate": 6.31995,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "VND": {
+    "rate": 21282,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "VUV": {
+    "rate": 105.5,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "WST": {
+    "rate": 2.493255,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XAF": {
+    "rate": 577.487763,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XAG": {
+    "rate": 0.05986593,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XAU": {
+    "rate": 0.00081017,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XCD": {
+    "rate": 2.70102,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XDR": {
+    "rate": 0.707527,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XOF": {
+    "rate": 577.419583,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "XPF": {
+    "rate": 105.476921,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "YER": {
+    "rate": 215.044,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ZAR": {
+    "rate": 11.50413,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ZMK": {
+    "rate": 5253.075255,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ZMW": {
+    "rate": 6.565174,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  },
+  "ZWL": {
+    "rate": 322.355006,
+    "symbol": "£",
+    "description": "Great British Pound Sterling",
+    "decimal_separator": ".",
+    "thousands_separator": ","
+  }
+}
