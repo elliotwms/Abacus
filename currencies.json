@@ -1,1178 +1,1064 @@
 {
   "AED": {
-    "rate": 3.6733,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "AED",
+    "name": "United Arab Emirates Dirham",
+    "symbol_native": "د.إ.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "AED",
+    "name_plural": "UAE dirhams"
   },
   "AFN": {
-    "rate": 57.33795,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Af",
+    "name": "Afghan Afghani",
+    "symbol_native": "؋",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "AFN",
+    "name_plural": "Afghan Afghanis"
   },
   "ALL": {
-    "rate": 123.171299,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "ALL",
+    "name": "Albanian Lek",
+    "symbol_native": "Lek",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "ALL",
+    "name_plural": "Albanian lekë"
   },
   "AMD": {
-    "rate": 477.234002,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "ANG": {
-    "rate": 1.78952,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "AOA": {
-    "rate": 104.720749,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "AMD",
+    "name": "Armenian Dram",
+    "symbol_native": "դր.",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "AMD",
+    "name_plural": "Armenian drams"
   },
   "ARS": {
-    "rate": 8.66001,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "AR$",
+    "name": "Argentine Peso",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "ARS",
+    "name_plural": "Argentine pesos"
   },
   "AUD": {
-    "rate": 1.284933,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "AWG": {
-    "rate": 1.79,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "AU$",
+    "name": "Australian Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "AUD",
+    "name_plural": "Australian dollars"
   },
   "AZN": {
-    "rate": 0.78315,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "man.",
+    "name": "Azerbaijani Manat",
+    "symbol_native": "ман.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "AZN",
+    "name_plural": "Azerbaijani manats"
   },
   "BAM": {
-    "rate": 1.72831,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "BBD": {
-    "rate": 2,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "KM",
+    "name": "Bosnia-Herzegovina Convertible Mark",
+    "symbol_native": "KM",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BAM",
+    "name_plural": "Bosnia-Herzegovina convertible marks"
   },
   "BDT": {
-    "rate": 77.85909,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Tk",
+    "name": "Bangladeshi Taka",
+    "symbol_native": "৳",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BDT",
+    "name_plural": "Bangladeshi takas"
   },
   "BGN": {
-    "rate": 1.7274,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BGN",
+    "name": "Bulgarian Lev",
+    "symbol_native": "лв.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BGN",
+    "name_plural": "Bulgarian leva"
   },
   "BHD": {
-    "rate": 0.37717,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BD",
+    "name": "Bahraini Dinar",
+    "symbol_native": "د.ب.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "BHD",
+    "name_plural": "Bahraini dinars"
   },
   "BIF": {
-    "rate": 1570.001667,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "BMD": {
-    "rate": 1,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "FBu",
+    "name": "Burundian Franc",
+    "symbol_native": "FBu",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "BIF",
+    "name_plural": "Burundian francs"
   },
   "BND": {
-    "rate": 1.35177,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BN$",
+    "name": "Brunei Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BND",
+    "name_plural": "Brunei dollars"
   },
   "BOB": {
-    "rate": 6.90952,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Bs",
+    "name": "Bolivian Boliviano",
+    "symbol_native": "Bs",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BOB",
+    "name_plural": "Bolivian bolivianos"
   },
   "BRL": {
-    "rate": 2.78247,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "BSD": {
-    "rate": 1,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "BTC": {
-    "rate": 0.0044925386,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "BTN": {
-    "rate": 61.790175,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "R$",
+    "name": "Brazilian Real",
+    "symbol_native": "R$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BRL",
+    "name_plural": "Brazilian reals"
   },
   "BWP": {
-    "rate": 9.507681,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BWP",
+    "name": "Botswanan Pula",
+    "symbol_native": "P",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BWP",
+    "name_plural": "Botswanan pulas"
   },
   "BYR": {
-    "rate": 15443.333333,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BYR",
+    "name": "Belarusian Ruble",
+    "symbol_native": "BYR",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "BYR",
+    "name_plural": "Belarusian rubles"
   },
   "BZD": {
-    "rate": 1.99832,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "BZ$",
+    "name": "Belize Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "BZD",
+    "name_plural": "Belize dollars"
   },
   "CAD": {
-    "rate": 1.253349,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CA$",
+    "name": "Canadian Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "CAD",
+    "name_plural": "Canadian dollars"
   },
   "CDF": {
-    "rate": 929.6405,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CDF",
+    "name": "Congolese Franc",
+    "symbol_native": "FrCD",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "CDF",
+    "name_plural": "Congolese francs"
   },
   "CHF": {
-    "rate": 0.926739,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "CLF": {
-    "rate": 0.02477,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CHF",
+    "name": "Swiss Franc",
+    "symbol_native": "CHF",
+    "decimal_digits": 2,
+    "rounding": 0.05,
+    "code": "CHF",
+    "name_plural": "Swiss francs"
   },
   "CLP": {
-    "rate": 626.946299,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CL$",
+    "name": "Chilean Peso",
+    "symbol_native": "$",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "CLP",
+    "name_plural": "Chilean pesos"
   },
   "CNY": {
-    "rate": 6.225212,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CN¥",
+    "name": "Chinese Yuan",
+    "symbol_native": "CN¥",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "CNY",
+    "name_plural": "Chinese yuan"
   },
   "COP": {
-    "rate": 2382.779964,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CO$",
+    "name": "Colombian Peso",
+    "symbol_native": "$",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "COP",
+    "name_plural": "Colombian pesos"
   },
   "CRC": {
-    "rate": 539.094,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "CUP": {
-    "rate": 1.002613,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₡",
+    "name": "Costa Rican Colón",
+    "symbol_native": "₡",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "CRC",
+    "name_plural": "Costa Rican colóns"
   },
   "CVE": {
-    "rate": 96.955537,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CV$",
+    "name": "Cape Verdean Escudo",
+    "symbol_native": "CV$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "CVE",
+    "name_plural": "Cape Verdean escudos"
   },
   "CZK": {
-    "rate": 24.47354,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Kč",
+    "name": "Czech Republic Koruna",
+    "symbol_native": "Kč",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "CZK",
+    "name_plural": "Czech Republic korunas"
   },
   "DJF": {
-    "rate": 178.741119,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Fdj",
+    "name": "Djiboutian Franc",
+    "symbol_native": "Fdj",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "DJF",
+    "name_plural": "Djiboutian francs"
   },
   "DKK": {
-    "rate": 6.57426,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Dkr",
+    "name": "Danish Krone",
+    "symbol_native": "kr",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "DKK",
+    "name_plural": "Danish kroner"
   },
   "DOP": {
-    "rate": 44.85606,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "RD$",
+    "name": "Dominican Peso",
+    "symbol_native": "RD$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "DOP",
+    "name_plural": "Dominican pesos"
   },
   "DZD": {
-    "rate": 93.162981,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "DA",
+    "name": "Algerian Dinar",
+    "symbol_native": "د.ج.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "DZD",
+    "name_plural": "Algerian dinars"
   },
   "EEK": {
-    "rate": 13.82245,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ekr",
+    "name": "Estonian Kroon",
+    "symbol_native": "kr",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "EEK",
+    "name_plural": "Estonian kroons"
   },
   "EGP": {
-    "rate": 7.625279,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "EGP",
+    "name": "Egyptian Pound",
+    "symbol_native": "ج.م.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "EGP",
+    "name_plural": "Egyptian pounds"
   },
   "ERN": {
-    "rate": 15.144375,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Nfk",
+    "name": "Eritrean Nakfa",
+    "symbol_native": "Nfk",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "ERN",
+    "name_plural": "Eritrean nakfas"
   },
   "ETB": {
-    "rate": 20.32551,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Br",
+    "name": "Ethiopian Birr",
+    "symbol_native": "Br",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "ETB",
+    "name_plural": "Ethiopian birrs"
   },
   "EUR": {
-    "rate": 0.883526,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "FJD": {
-    "rate": 2.034572,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "FKP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "€",
+    "name": "Euro",
+    "symbol_native": "€",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "EUR",
+    "name_plural": "euros"
   },
   "GBP": {
-    "rate": 0.656179,
     "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "name": "British Pound Sterling",
+    "symbol_native": "£",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "GBP",
+    "name_plural": "British pounds sterling"
   },
   "GEL": {
-    "rate": 1.7655,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "GGP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "GEL",
+    "name": "Georgian Lari",
+    "symbol_native": "GEL",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "GEL",
+    "name_plural": "Georgian laris"
   },
   "GHS": {
-    "rate": 3.37952,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "GIP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "GMD": {
-    "rate": 43.00236,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "GH₵",
+    "name": "Ghanaian Cedi",
+    "symbol_native": "GH₵",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "GHS",
+    "name_plural": "Ghanaian cedis"
   },
   "GNF": {
-    "rate": 7210.725,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "FG",
+    "name": "Guinean Franc",
+    "symbol_native": "FG",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "GNF",
+    "name_plural": "Guinean francs"
   },
   "GTQ": {
-    "rate": 7.65316,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "GYD": {
-    "rate": 206.766627,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "GTQ",
+    "name": "Guatemalan Quetzal",
+    "symbol_native": "Q",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "GTQ",
+    "name_plural": "Guatemalan quetzals"
   },
   "HKD": {
-    "rate": 7.752792,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "HK$",
+    "name": "Hong Kong Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "HKD",
+    "name_plural": "Hong Kong dollars"
   },
   "HNL": {
-    "rate": 21.14126,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "HNL",
+    "name": "Honduran Lempira",
+    "symbol_native": "L",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "HNL",
+    "name_plural": "Honduran lempiras"
   },
   "HRK": {
-    "rate": 6.80134,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "HTG": {
-    "rate": 46.61098,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "kn",
+    "name": "Croatian Kuna",
+    "symbol_native": "kn",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "HRK",
+    "name_plural": "Croatian kunas"
   },
   "HUF": {
-    "rate": 270.389503,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ft",
+    "name": "Hungarian Forint",
+    "symbol_native": "Ft",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "HUF",
+    "name_plural": "Hungarian forints"
   },
   "IDR": {
-    "rate": 12636.483398,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Rp",
+    "name": "Indonesian Rupiah",
+    "symbol_native": "Rp",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "IDR",
+    "name_plural": "Indonesian rupiahs"
   },
   "ILS": {
-    "rate": 3.89312,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "IMP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₪",
+    "name": "Israeli New Sheqel",
+    "symbol_native": "₪",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "ILS",
+    "name_plural": "Israeli new sheqels"
   },
   "INR": {
-    "rate": 61.97185,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Rs",
+    "name": "Indian Rupee",
+    "symbol_native": "₹",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "INR",
+    "name_plural": "Indian rupees"
   },
   "IQD": {
-    "rate": 1183.683333,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "IQD",
+    "name": "Iraqi Dinar",
+    "symbol_native": "د.ع.‏",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "IQD",
+    "name_plural": "Iraqi dinars"
   },
   "IRR": {
-    "rate": 27530.666667,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "IRR",
+    "name": "Iranian Rial",
+    "symbol_native": "﷼",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "IRR",
+    "name_plural": "Iranian rials"
   },
   "ISK": {
-    "rate": 131.848,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "JEP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ikr",
+    "name": "Icelandic Króna",
+    "symbol_native": "kr",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "ISK",
+    "name_plural": "Icelandic krónur"
   },
   "JMD": {
-    "rate": 115.808,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "J$",
+    "name": "Jamaican Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "JMD",
+    "name_plural": "Jamaican dollars"
   },
   "JOD": {
-    "rate": 0.709868,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "JD",
+    "name": "Jordanian Dinar",
+    "symbol_native": "د.أ.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "JOD",
+    "name_plural": "Jordanian dinars"
   },
   "JPY": {
-    "rate": 119.1345,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "¥",
+    "name": "Japanese Yen",
+    "symbol_native": "￥",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "JPY",
+    "name_plural": "Japanese yen"
   },
   "KES": {
-    "rate": 91.4096,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "KGS": {
-    "rate": 60.6877,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ksh",
+    "name": "Kenyan Shilling",
+    "symbol_native": "Ksh",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "KES",
+    "name_plural": "Kenyan shillings"
   },
   "KHR": {
-    "rate": 4062.03655,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "KHR",
+    "name": "Cambodian Riel",
+    "symbol_native": "៛",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "KHR",
+    "name_plural": "Cambodian riels"
   },
   "KMF": {
-    "rate": 434.715662,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "KPW": {
-    "rate": 900,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CF",
+    "name": "Comorian Franc",
+    "symbol_native": "FC",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "KMF",
+    "name_plural": "Comorian francs"
   },
   "KRW": {
-    "rate": 1095.293348,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₩",
+    "name": "South Korean Won",
+    "symbol_native": "₩",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "KRW",
+    "name_plural": "South Korean won"
   },
   "KWD": {
-    "rate": 0.295374,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "KYD": {
-    "rate": 0.828521,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "KD",
+    "name": "Kuwaiti Dinar",
+    "symbol_native": "د.ك.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "KWD",
+    "name_plural": "Kuwaiti dinars"
   },
   "KZT": {
-    "rate": 185.49,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "LAK": {
-    "rate": 8111.316732,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "KZT",
+    "name": "Kazakhstani Tenge",
+    "symbol_native": "тңг.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "KZT",
+    "name_plural": "Kazakhstani tenges"
   },
   "LBP": {
-    "rate": 1509.833333,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "LB£",
+    "name": "Lebanese Pound",
+    "symbol_native": "ل.ل.‏",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "LBP",
+    "name_plural": "Lebanese pounds"
   },
   "LKR": {
-    "rate": 133.143101,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "LRD": {
-    "rate": 84.765551,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "LSL": {
-    "rate": 11.50592,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "SLRs",
+    "name": "Sri Lankan Rupee",
+    "symbol_native": "SL Re",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "LKR",
+    "name_plural": "Sri Lankan rupees"
   },
   "LTL": {
-    "rate": 2.980312,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Lt",
+    "name": "Lithuanian Litas",
+    "symbol_native": "Lt",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "LTL",
+    "name_plural": "Lithuanian litai"
   },
   "LVL": {
-    "rate": 0.620937,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ls",
+    "name": "Latvian Lats",
+    "symbol_native": "Ls",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "LVL",
+    "name_plural": "Latvian lati"
   },
   "LYD": {
-    "rate": 1.36625,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "LD",
+    "name": "Libyan Dinar",
+    "symbol_native": "د.ل.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "LYD",
+    "name_plural": "Libyan dinars"
   },
   "MAD": {
-    "rate": 9.56077,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MAD",
+    "name": "Moroccan Dirham",
+    "symbol_native": "د.م.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MAD",
+    "name_plural": "Moroccan dirhams"
   },
   "MDL": {
-    "rate": 18.6046,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MDL",
+    "name": "Moldovan Leu",
+    "symbol_native": "MDL",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MDL",
+    "name_plural": "Moldovan lei"
   },
   "MGA": {
-    "rate": 2814.43335,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MGA",
+    "name": "Malagasy Ariary",
+    "symbol_native": "MGA",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "MGA",
+    "name_plural": "Malagasy Ariaries"
   },
   "MKD": {
-    "rate": 54.1439,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MKD",
+    "name": "Macedonian Denar",
+    "symbol_native": "MKD",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MKD",
+    "name_plural": "Macedonian denari"
   },
   "MMK": {
-    "rate": 1027.566659,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "MNT": {
-    "rate": 1945.333333,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MMK",
+    "name": "Myanma Kyat",
+    "symbol_native": "K",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "MMK",
+    "name_plural": "Myanma kyats"
   },
   "MOP": {
-    "rate": 7.998635,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "MRO": {
-    "rate": 291.875,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "MTL": {
-    "rate": 0.683738,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MOP$",
+    "name": "Macanese Pataca",
+    "symbol_native": "MOP$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MOP",
+    "name_plural": "Macanese patacas"
   },
   "MUR": {
-    "rate": 32.9498,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "MVR": {
-    "rate": 15.29398,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "MWK": {
-    "rate": 455.046999,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MURs",
+    "name": "Mauritian Rupee",
+    "symbol_native": "MURs",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "MUR",
+    "name_plural": "Mauritian rupees"
   },
   "MXN": {
-    "rate": 14.84554,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MX$",
+    "name": "Mexican Peso",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MXN",
+    "name_plural": "Mexican pesos"
   },
   "MYR": {
-    "rate": 3.54901,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "RM",
+    "name": "Malaysian Ringgit",
+    "symbol_native": "RM",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MYR",
+    "name_plural": "Malaysian ringgits"
   },
   "MZN": {
-    "rate": 33.733075,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "MTn",
+    "name": "Mozambican Metical",
+    "symbol_native": "MTn",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "MZN",
+    "name_plural": "Mozambican meticals"
   },
   "NAD": {
-    "rate": 11.50592,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "N$",
+    "name": "Namibian Dollar",
+    "symbol_native": "N$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NAD",
+    "name_plural": "Namibian dollars"
   },
   "NGN": {
-    "rate": 194.018001,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₦",
+    "name": "Nigerian Naira",
+    "symbol_native": "₦",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NGN",
+    "name_plural": "Nigerian nairas"
   },
   "NIO": {
-    "rate": 26.6473,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "C$",
+    "name": "Nicaraguan Córdoba",
+    "symbol_native": "C$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NIO",
+    "name_plural": "Nicaraguan córdobas"
   },
   "NOK": {
-    "rate": 7.624204,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Nkr",
+    "name": "Norwegian Krone",
+    "symbol_native": "kr",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NOK",
+    "name_plural": "Norwegian kroner"
   },
   "NPR": {
-    "rate": 98.76009,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "NPRs",
+    "name": "Nepalese Rupee",
+    "symbol_native": "नेरू",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NPR",
+    "name_plural": "Nepalese rupees"
   },
   "NZD": {
-    "rate": 1.358951,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "NZ$",
+    "name": "New Zealand Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "NZD",
+    "name_plural": "New Zealand dollars"
   },
   "OMR": {
-    "rate": 0.384964,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "OMR",
+    "name": "Omani Rial",
+    "symbol_native": "ر.ع.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "OMR",
+    "name_plural": "Omani rials"
   },
   "PAB": {
-    "rate": 1,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "B/.",
+    "name": "Panamanian Balboa",
+    "symbol_native": "B/.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "PAB",
+    "name_plural": "Panamanian balboas"
   },
   "PEN": {
-    "rate": 3.06956,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "PGK": {
-    "rate": 2.625397,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "S/.",
+    "name": "Peruvian Nuevo Sol",
+    "symbol_native": "S/.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "PEN",
+    "name_plural": "Peruvian nuevos soles"
   },
   "PHP": {
-    "rate": 44.21306,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₱",
+    "name": "Philippine Peso",
+    "symbol_native": "₱",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "PHP",
+    "name_plural": "Philippine pesos"
   },
   "PKR": {
-    "rate": 101.176001,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "PKRs",
+    "name": "Pakistani Rupee",
+    "symbol_native": "₨",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "PKR",
+    "name_plural": "Pakistani rupees"
   },
   "PLN": {
-    "rate": 3.67382,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "zł",
+    "name": "Polish Zloty",
+    "symbol_native": "zł",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "PLN",
+    "name_plural": "Polish zlotys"
   },
   "PYG": {
-    "rate": 4771.203353,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₲",
+    "name": "Paraguayan Guarani",
+    "symbol_native": "₲",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "PYG",
+    "name_plural": "Paraguayan guaranis"
   },
   "QAR": {
-    "rate": 3.64158,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "QR",
+    "name": "Qatari Rial",
+    "symbol_native": "ر.ق.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "QAR",
+    "name_plural": "Qatari rials"
   },
   "RON": {
-    "rate": 3.895139,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "RON",
+    "name": "Romanian Leu",
+    "symbol_native": "RON",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "RON",
+    "name_plural": "Romanian lei"
   },
   "RSD": {
-    "rate": 107.61,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "din.",
+    "name": "Serbian Dinar",
+    "symbol_native": "дин.",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "RSD",
+    "name_plural": "Serbian dinars"
   },
   "RUB": {
-    "rate": 66.85222,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "RUB",
+    "name": "Russian Ruble",
+    "symbol_native": "руб.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "RUB",
+    "name_plural": "Russian rubles"
   },
   "RWF": {
-    "rate": 692.268,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "RWF",
+    "name": "Rwandan Franc",
+    "symbol_native": "FR",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "RWF",
+    "name_plural": "Rwandan francs"
   },
   "SAR": {
-    "rate": 3.752519,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SBD": {
-    "rate": 7.814404,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SCR": {
-    "rate": 14.11577,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "SR",
+    "name": "Saudi Riyal",
+    "symbol_native": "ر.س.‏",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "SAR",
+    "name_plural": "Saudi riyals"
   },
   "SDG": {
-    "rate": 5.959825,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "SDG",
+    "name": "Sudanese Pound",
+    "symbol_native": "SDG",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "SDG",
+    "name_plural": "Sudanese pounds"
   },
   "SEK": {
-    "rate": 8.407762,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Skr",
+    "name": "Swedish Krona",
+    "symbol_native": "kr",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "SEK",
+    "name_plural": "Swedish kronor"
   },
   "SGD": {
-    "rate": 1.353102,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SHP": {
-    "rate": 0.656179,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SLL": {
-    "rate": 4330.416667,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "S$",
+    "name": "Singapore Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "SGD",
+    "name_plural": "Singapore dollars"
   },
   "SOS": {
-    "rate": 707.300922,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SRD": {
-    "rate": 3.3302,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "STD": {
-    "rate": 21566.5,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SVC": {
-    "rate": 8.76693,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Ssh",
+    "name": "Somali Shilling",
+    "symbol_native": "Ssh",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "SOS",
+    "name_plural": "Somali shillings"
   },
   "SYP": {
-    "rate": 194.514999,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "SZL": {
-    "rate": 11.4943,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "SY£",
+    "name": "Syrian Pound",
+    "symbol_native": "ل.س.‏",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "SYP",
+    "name_plural": "Syrian pounds"
   },
   "THB": {
-    "rate": 32.63756,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "TJS": {
-    "rate": 5.39215,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "TMT": {
-    "rate": 2.850285,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "฿",
+    "name": "Thai Baht",
+    "symbol_native": "฿",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "THB",
+    "name_plural": "Thai baht"
   },
   "TND": {
-    "rate": 1.93215,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "DT",
+    "name": "Tunisian Dinar",
+    "symbol_native": "د.ت.‏",
+    "decimal_digits": 3,
+    "rounding": 0,
+    "code": "TND",
+    "name_plural": "Tunisian dinars"
   },
   "TOP": {
-    "rate": 2.010386,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "T$",
+    "name": "Tongan Paʻanga",
+    "symbol_native": "T$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "TOP",
+    "name_plural": "Tongan paʻanga"
   },
   "TRY": {
-    "rate": 2.474346,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "TL",
+    "name": "Turkish Lira",
+    "symbol_native": "TL",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "TRY",
+    "name_plural": "Turkish Lira"
   },
   "TTD": {
-    "rate": 6.35079,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "TT$",
+    "name": "Trinidad and Tobago Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "TTD",
+    "name_plural": "Trinidad and Tobago dollars"
   },
   "TWD": {
-    "rate": 31.61088,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "NT$",
+    "name": "New Taiwan Dollar",
+    "symbol_native": "NT$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "TWD",
+    "name_plural": "New Taiwan dollars"
   },
   "TZS": {
-    "rate": 1833.883341,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "TSh",
+    "name": "Tanzanian Shilling",
+    "symbol_native": "TSh",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "TZS",
+    "name_plural": "Tanzanian shillings"
   },
   "UAH": {
-    "rate": 25.25,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₴",
+    "name": "Ukrainian Hryvnia",
+    "symbol_native": "₴",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "UAH",
+    "name_plural": "Ukrainian hryvnias"
   },
   "UGX": {
-    "rate": 2866.666667,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "USh",
+    "name": "Ugandan Shilling",
+    "symbol_native": "USh",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "UGX",
+    "name_plural": "Ugandan shillings"
   },
   "USD": {
-    "rate": 1,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "$",
+    "name": "US Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "USD",
+    "name_plural": "US dollars"
   },
   "UYU": {
-    "rate": 24.43642,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "$U",
+    "name": "Uruguayan Peso",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "UYU",
+    "name_plural": "Uruguayan pesos"
   },
   "UZS": {
-    "rate": 2448.419961,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "UZS",
+    "name": "Uzbekistan Som",
+    "symbol_native": "UZS",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "UZS",
+    "name_plural": "Uzbekistan som"
   },
   "VEF": {
-    "rate": 6.31995,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "Bs.F.",
+    "name": "Venezuelan Bolívar",
+    "symbol_native": "Bs.F.",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "VEF",
+    "name_plural": "Venezuelan bolívars"
   },
   "VND": {
-    "rate": 21282,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "VUV": {
-    "rate": 105.5,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "WST": {
-    "rate": 2.493255,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "₫",
+    "name": "Vietnamese Dong",
+    "symbol_native": "₫",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "VND",
+    "name_plural": "Vietnamese dong"
   },
   "XAF": {
-    "rate": 577.487763,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "XAG": {
-    "rate": 0.05986593,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "XAU": {
-    "rate": 0.00081017,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "XCD": {
-    "rate": 2.70102,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "XDR": {
-    "rate": 0.707527,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "FCFA",
+    "name": "CFA Franc BEAC",
+    "symbol_native": "FCFA",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "XAF",
+    "name_plural": "CFA francs BEAC"
   },
   "XOF": {
-    "rate": 577.419583,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "XPF": {
-    "rate": 105.476921,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "CFA",
+    "name": "CFA Franc BCEAO",
+    "symbol_native": "CFA",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "XOF",
+    "name_plural": "CFA francs BCEAO"
   },
   "YER": {
-    "rate": 215.044,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "YR",
+    "name": "Yemeni Rial",
+    "symbol_native": "ر.ي.‏",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "YER",
+    "name_plural": "Yemeni rials"
   },
   "ZAR": {
-    "rate": 11.50413,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "R",
+    "name": "South African Rand",
+    "symbol_native": "R",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "ZAR",
+    "name_plural": "South African rand"
   },
   "ZMK": {
-    "rate": 5253.075255,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "ZMW": {
-    "rate": 6.565174,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
-  },
-  "ZWL": {
-    "rate": 322.355006,
-    "symbol": "£",
-    "description": "Great British Pound Sterling",
-    "decimal_separator": ".",
-    "thousands_separator": ","
+    "symbol": "ZK",
+    "name": "Zambian Kwacha",
+    "symbol_native": "ZK",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "ZMK",
+    "name_plural": "Zambian kwachas"
   }
 }
