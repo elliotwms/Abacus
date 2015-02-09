@@ -5,54 +5,6 @@ namespace Abacus;
 use Abacus\Currency;
 use GuzzleHttp;
 
-abstract class BaseCurrency
-{
-    public $symbol = '?';
-    public $name = 'BCU';
-    public $decimalUnit = '.';
-    public $thousands = ',';
-    public $rate = 1;
-
-    public function __toString()
-    {
-        return $this->name;
-    }
-}
-
-class GBP extends BaseCurrency
-{
-    public $name = "GBP";
-    public $description = "Great British Pounds";
-    public $symbol = "£";
-    public $rate = 0.656179;
-
-}
-
-class USD extends BaseCurrency
-{
-    public $name = "USD";
-    public $description = "United States Dollars";
-    public $symbol = "$";
-    public $rate = 1;
-
-}
-
-class BTC extends BaseCurrency
-{
-    public $name = "BTC";
-    public $description = "Bitcoins";
-    public $symbol = "Ƀ";
-    public $rate = 0.0044925386;
-
-}
-
-class IMC extends BaseCurrency
-{
-    public $name = "IMC";
-    public $description = "IMaginary Currency";
-    public $rate = 2;
-}
-
 /**
  * Class Abacus
  * @package Abacus
@@ -67,21 +19,28 @@ class Abacus {
      */
     public function __construct($value = null, $currency = "GBP")
     {
-        if (is_null($currency)) {
-            $currency = new GBP;
-        } else {
-            $currency = "Abacus\\$currency";
-            $currency = new $currency;
-        }
         $this->value = $value;
-        $this->currency = $currency;
+        $this->currency = new Currency($currency);
     }
 
+    /**
+     * Typecast to string
+     *
+     * @return string
+     */
     public function __toString()
     {
-        return number_format($this->value, 2, $this->currency->decimalUnit, $this->currency->thousands);
+        return number_format($this->value, 2, $this->currency->decimal_separator, $this->currency->thousands_separator);
     }
 
+    /**
+     * Format Abacus object
+     *
+     * Add the currency symbol to the front and output formatted with decimal
+     * and thousands markers
+     *
+     * @return string
+     */
     public function format()
     {
         return $this->currency->symbol . $this->__toString();
@@ -104,12 +63,12 @@ class Abacus {
             // If adding an Abacus object
             // Convert the object to the current object's currency and
             // add it to the current object
-            $this->value += $value->to($this->currency->name)->value;
+            $this->value += $value->to($this->currency->code)->value;
         } else {
             if (isset($currency)) {
                 $value = new Abacus($value, $currency);
             } else {
-                $value = new Abacus($value, $this->currency->name);
+                $value = new Abacus($value, $this->currency->code);
             }
             return $this->add($value);
         }
@@ -149,43 +108,74 @@ class Abacus {
     public function to($currency)
     {
         // Get the new Currency Model
-        $currency = "Abacus\\$currency";
-        $currency = new $currency;
+        $currency = new Currency($currency);
 
         // New currency = Current / rate * new rate
         $this->value = $this->value / $this->currency->rate * $currency->rate;
 
         // Update the currency of the Abacus model
-        $this->currency = new $currency;
+        $this->currency = $currency;
 
         return $this;
     }
 
-    public static function update($key)
+    /**
+     * Update Abacus's exchange rates
+     *
+     * Update the contents of storage/exchange.json by polling the
+     * OpenExchangeRates API, getting the currencies in currencies.json
+     * and combining the two.
+     *
+     * @param null $key
+     * @return int
+     */
+    public static function update($key = null)
     {
-        if (!$latest = self::_fetchAPI($key)) {
-            return false;
-        };
+        $latest = self::_fetchAPI($key);
 
         $currencies = self::_getCurrencies();
 
-        foreach ($latest['rates'] as $key => $rate) {
-            if ($currencies->$key) {
-                $currencies->$key->rate = $rate;
+        foreach ($currencies as $name => &$currency) {
+            if (isset($latest['rates'][$name])) {
+                $currency->rate = $latest['rates'][$name];
+            } else {
+                unset($currencies->$name);
             }
         }
 
         return self::_setCurrencies($currencies, $latest['timestamp']);
     }
 
+    /**
+     * Fetch API
+     *
+     * Get the exchange rates from the API. If
+     * no API key is supplied, it will look for one as an environment
+     * variable.
+     *
+     * @param $key
+     *
+     * @return array|false
+     */
     private static function _fetchAPI($key)
     {
+        if (is_null($key)) {
+            $key = getenv('ABACUS_OPEN_EXCHANGE_KEY');
+        }
         $guzzle = (new GuzzleHttp\client())
             ->get('http://openexchangerates.org/api/latest.json', ['query' => ['app_id' => $key]]);
 
         return $guzzle->json();
     }
 
+    /**
+     * Get Currencies
+     *
+     * Get the contents of the currencies.json file and decode it
+     * into a stdClass object
+     *
+     * @return object|false
+     */
     private static function _getCurrencies()
     {
         return json_decode(file_get_contents(__DIR__ . "/../currencies.json"));

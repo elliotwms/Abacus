@@ -25,10 +25,16 @@ class Currency {
 
         // Get the attributes from the currency JSON object
         $this->rate = $currency->rate;
+        $this->decimal_separator = '.';
+        $this->thousands_separator = ',';
+
         $this->symbol = $currency->symbol;
-        $this->description = $currency->description;
-        $this->decimal_separator = $currency->decimal_separator;
-        $this->thousands_separator = $currency->thousands_separator;
+        $this->name = $currency->name;
+        $this->symbol_native = $currency->symbol_native;
+        $this->decimal_digits = $currency->decimal_digits;
+        $this->rounding = $currency->rounding;
+        $this->code = $currency->code;
+        $this->name_plural = $currency->name_plural;
 
         // Get the DateTime for when the exchange was updated last
         $this->updated_at = $exchange->updated;
