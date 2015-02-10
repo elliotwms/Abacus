@@ -18,9 +18,6 @@ class AbacusTest extends PHPUnit_Framework_TestCase {
      */
     public function testPolls()
     {
-        // The file shouldn't exist before we poll it
-        $this->assertFileNotExists(__DIR__ . "/../storage/exchange.json");
-
         // Poll the API
         $result = Abacus::update(getenv('ABACUS_OPEN_EXCHANGE_KEY'));
 
@@ -72,7 +69,10 @@ class AbacusTest extends PHPUnit_Framework_TestCase {
      */
     public function testFormats()
     {
+        // £GBP by default
         $this->assertEquals("£1,234.56", (new Abacus(1234.56))->format());
+
+        // Created as $USD
         $this->assertEquals("$1,234.56", (new Abacus(1234.56, "USD"))->format());
     }
 
