@@ -3,9 +3,10 @@
 require_once(__DIR__ . "/../src/Abacus.php");
 
 use Abacus\Abacus;
-use GuzzleHttp\client;
+use \GuzzleHttp\client;
 
-class AbacusTest extends PHPUnit_Framework_TestCase {
+class AbacusTest extends PHPUnit_Framework_TestCase
+{
 
     /**
      * Polls API
