@@ -6,7 +6,8 @@ namespace Abacus;
  * Class Currency
  * @package Abacus
  */
-class Currency {
+class Currency
+{
     /**
      * __construct
      *
