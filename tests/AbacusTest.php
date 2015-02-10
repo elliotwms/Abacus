@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . "/../src/Abacus.php");
+require_once(__DIR__ . "/../vendor/autoload.php");
 
 use Abacus\Abacus;
 use \GuzzleHttp\client;
