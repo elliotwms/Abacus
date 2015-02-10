@@ -3,6 +3,7 @@
 require_once(__DIR__ . "/../src/Abacus.php");
 
 use Abacus\Abacus;
+use GuzzleHttp\client;
 
 class AbacusTest extends PHPUnit_Framework_TestCase {
 

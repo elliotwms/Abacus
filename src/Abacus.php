@@ -162,7 +162,7 @@ class Abacus {
         if (is_null($key)) {
             $key = getenv('ABACUS_OPEN_EXCHANGE_KEY');
         }
-        $guzzle = (new GuzzleHttp\client())
+        $guzzle = (new \GuzzleHttp\client)
             ->get('http://openexchangerates.org/api/latest.json', ['query' => ['app_id' => $key]]);
 
         return $guzzle->json();
