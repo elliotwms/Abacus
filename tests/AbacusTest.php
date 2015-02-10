@@ -71,10 +71,10 @@ class AbacusTest extends PHPUnit_Framework_TestCase
     public function testFormats()
     {
         // £GBP by default
-        $this->assertEquals("£1,234.56", (new Abacus(1234.56))->format());
+        $this->assertEquals("$1,234.56", (new Abacus(1234.56))->format());
 
         // Created as $USD
-        $this->assertEquals("$1,234.56", (new Abacus(1234.56, "USD"))->format());
+        $this->assertEquals("£1,234.56", (new Abacus(1234.56, "GBP"))->format());
     }
 
     /**
@@ -100,7 +100,7 @@ class AbacusTest extends PHPUnit_Framework_TestCase
         $result = (new Abacus(1))->add(new Abacus(1.5));
         $this->assertEquals(2.5, $result->value);
 
-        $result = (new Abacus(1))->add(new Abacus(2, "GBP"));
+        $result = (new Abacus(1))->add(new Abacus(2, "USD"));
         $this->assertEquals(3, $result->value);
     }
 
