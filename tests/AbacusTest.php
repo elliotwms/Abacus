@@ -3,6 +3,7 @@
 require_once(__DIR__ . "/../vendor/autoload.php");
 
 use Abacus\Abacus;
+use Abacus\Currency;
 
 class AbacusTest extends PHPUnit_Framework_TestCase
 {
@@ -19,7 +20,7 @@ class AbacusTest extends PHPUnit_Framework_TestCase
     public function testPolls()
     {
         // Poll the API
-        $result = Abacus::update(getenv('ABACUS_OPEN_EXCHANGE_KEY'));
+        $result = Currency::update(getenv('ABACUS_OPEN_EXCHANGE_KEY'));
 
         // Abacus::update() returns the size of the file it created
         $this->assertInternalType('int', $result);
