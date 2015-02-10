@@ -15,7 +15,7 @@ class Abacus
      * @param float $value
      * @param Currency|string|null $currency
      */
-    public function __construct($value = null, $currency = "GBP")
+    public function __construct($value = null, $currency = "USD")
     {
         // Assign the value
         $this->value = $value;

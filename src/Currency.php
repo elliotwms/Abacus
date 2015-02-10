@@ -8,16 +8,18 @@ namespace Abacus;
  */
 class Currency
 {
-    public $rate = 1;
-    public $decimal_separator = '.';
-    public $thousands_separator = ',';
-    public $symbol = '';
-    public $name = '';
-    public $symbol_native = '';
-    public $decimal_digits = 2;
-    public $rounding;
-    public $code;
-    public $name_plural;
+    public $name = 'US Dollar';         // Common singular currency name
+    public $name_plural = 'US Dollars'; // Common plural currency name
+    public $code = 'USD';               // ISO code
+    public $symbol = '$';               // Standard currency symbol ($/£/€)
+    public $symbol_native = '$';        // Locally used currency symbol
+
+    public $rate = 1;                   // The currency's rate to USD
+
+    public $thousands_separator = ',';  // Thousands separator for formatting
+    public $decimal_separator = '.';    // Decimal separator for formatting
+    public $decimal_digits = 2;         // How many decimal digits to display
+    public $rounding = 0;               // Currency rounding method
 
     /**
      * __construct
@@ -26,7 +28,7 @@ class Currency
      *
      * @param string $currency The currency's ISO code
      */
-    public function __construct($currency)
+    public function __construct($currency = "USD")
     {
         // Get the Currency object from the exchange.json file
         $exchange = json_decode(file_get_contents(__DIR__ . '/../storage/exchange.json'));
