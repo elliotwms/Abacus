@@ -9,9 +9,7 @@
       "email": "elliot.sel@gmail.com"
     }
   ],
-  "require": {
-    "guzzlehttp/guzzle": "~5.2"
-  },
+  "require": {},
   "require-dev": {
     "phpunit/phpunit": "4.0.*",
     "vlucas/phpdotenv": "~1.1"
