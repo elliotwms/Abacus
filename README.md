@@ -2,47 +2,72 @@
 
 [![Build Status](https://travis-ci.org/elliotwms/Abacus.svg?branch=master)](https://travis-ci.org/elliotwms/Abacus)
 [![Latest Stable Version](https://poser.pugx.org/elliotwms/abacus/v/stable.svg)](https://packagist.org/packages/elliotwms/abacus)
-[![Total Downloads](https://poser.pugx.org/elliotwms/abacus/downloads.svg)](https://packagist.org/packages/elliotwms/abacus) [![Latest Unstable Version](https://poser.pugx.org/elliotwms/abacus/v/unstable.svg)](https://packagist.org/packages/elliotwms/abacus)
+[![Latest Unstable Version](https://poser.pugx.org/elliotwms/abacus/v/unstable.svg)](https://packagist.org/packages/elliotwms/abacus)
+[![Total Downloads](https://poser.pugx.org/elliotwms/abacus/downloads.svg)](https://packagist.org/packages/elliotwms/abacus)
 [![License](https://poser.pugx.org/elliotwms/abacus/license.svg)](https://packagist.org/packages/elliotwms/abacus)
 
 PHP currency manipulation package from the future. Still in very early development.
 
 ## Usage
 
+Once Abacus has been [set up successfully](#installation), it can be used like so:
+
+```PHP
+$abacus = new Abacus(1250.00);          // Create a new Abacus object. Defaults to USD
+echo $abacus;                           // "1250.00"
+echo $abacus->format();                 // "£1,250.00"
+echo $abacus->value                     // 1250
+
+$abacus->to("USD");                     // Convert USD to GBP
+
+$abacus->add(20);                       // Addition
+$abacus->add(10, "GBP");                // Addition of a value in another currency
+$abacus->add(new Abacus(5, "GBP");      // Adding another Abacus object
+                                        
+$abacus->sub(20);                       // Subtraction
+$abacus->sub(10, "GBP");                // Subtraction of a value in another currency
+$abacus->sub(new Abacus(5, "GBP");      // Subtract another Abacus object
+```
+
+## Installation
+
+Install Abacus via [Composer](//getcomposer.org) by either including it in your composer.json
+file:
+
+```JSON
+{
+    "require": {
+        "elliotwms/abacus": "dev-master"
+    }
+}
+```
+
+Or by running:
+
+```Shell
+composer require elliotwms/abacus dev-master
+```
+
+### Polling the API
 Abacus depends on data retrieved from the [Open Exchange Rates](https://openexchangerates.org/)
 API. In order to use Abacus fully, you must poll the API using your own API key. Abacus will look
 for an environment variable named `ABACUS_OPEN_EXCHANGE_KEY` and can be polled like so:
 
-```php
-Abacus::update();
+```PHP
+Currency::update();
 ```
 
-For testing purposes, Abacus will also accept an API key directly
+Abacus will also accept an API key directly:
 
-```php
-Abacus::update('my_api_key');
+```PHP
+Currency::update('my_api_key');
 ```
 
-Once Abacus has been polled successfully, it is ready to use.
+I recommend setting up a CRON service to poll the Open Exchange hourly in order to keep an up to
+date record of the currency exchange rates. At the time of writing, the free tier of the Open
+Exchange Rates API allows for 1,000 calls per month and there are 744 hours in a month so you're
+sorted. It would be fruitless to poll more than once an hour on the free tier as the information
+is updated hourly.
 
-```php
-$abacus = new Abacus(1250.00, "GBP");   // Create a new Abacus object. Defaults to GBP
-echo $abacus;                           // "1,250.00"
-echo $abacus->format();                 // "£1,250.00"
-echo $abacus->value                     // 1250
-
-$abacus->to("USD");                     // Convert GBP to USD
-
-$abacus->add(20);                       // Addition
-$abacus->sub(20);                       // Subtraction
-
-$abacus->add(10, "GBP");                // Addition of another currency into the
-                                        // original currency
-$abacus->sub(10, "GBP");                // Subtraction of another currency into
-                                        // the original currency
-
-$abacus->add(new Abacus(5, "GBP");      // Adding another Abacus object of a
-                                        // different currency
-$abacus->sub(new Abacus(5, "GBP");      // Subtract another Abacus object of a
-                                        // different currency
-```
+If you want more up-to-the-minute exchange rates, I highly recommend
+[signing up for a paid plan](//openexchangerates.org/signup)

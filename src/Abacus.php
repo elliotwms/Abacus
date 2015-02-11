@@ -41,7 +41,7 @@ class Abacus
      */
     public function format()
     {
-        return $this->currency->symbol . $this->__toString();
+        return $this->currency->symbol . number_format($this->value, $this->currency->decimal_digits, $this->currency->decimal_separator, $this->currency->thousands_separator);
     }
 
     /**
@@ -51,7 +51,7 @@ class Abacus
      */
     public function __toString()
     {
-        return number_format($this->value, 2, $this->currency->decimal_separator, $this->currency->thousands_separator);
+        return (string)$this->value;
     }
 
     /**
@@ -82,7 +82,7 @@ class Abacus
      * in an Abacus object of the original currency
      *
      * @param Abacus|float $value
-     * @param string|null $currency
+     * @param Currency|string|null $currency
      * @return $this
      */
     public function add($value, $currency = null)
@@ -110,13 +110,17 @@ class Abacus
      *
      * Convert the Abacus object from one currency to another.
      *
-     * @param string $currency
-     * @return $this
+     * @param Currency|string $currency
+     *
+     * @return Abacus $this
      */
     public function to($currency)
     {
-        // Get the new Currency Model
-        $currency = new Currency($currency);
+        // If we're not using a custom Currency model
+        if (!is_a($currency, "Abacus\\Currency")) {
+            // Make a new Currency model
+            $currency = new Currency($currency);
+        }
 
         // New currency = Current / rate * new rate
         $this->value = $this->value / $this->currency->rate * $currency->rate;
@@ -124,6 +128,7 @@ class Abacus
         // Update the currency of the Abacus model
         $this->currency = $currency;
 
+        // Return the new Abacus object
         return $this;
     }
 

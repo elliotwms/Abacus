@@ -60,7 +60,9 @@ class AbacusTest extends PHPUnit_Framework_TestCase
      */
     public function testStringTypecast()
     {
-        $this->assertEquals("1,234.56", strval(new Abacus(1234.56)));
+        $this->assertEquals("1234.56", strval(new Abacus(1234.56)));
+        $this->assertEquals("1234.567", strval(new Abacus(1234.567)));
+        $this->assertEquals("1234.5678", strval(new Abacus(1234.5678)));
     }
 
     /**
