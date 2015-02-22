@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+/*
+ * Abacus
+ *
+ * Abacus requires an OpenExchange API key, either in the
+ * form of an argument or an environment variable named
+ * ABACUS_OPEN_EXCHANGE_KEY
+ */
+require __DIR__ . "/../src/Currency.php";
+use Abacus\Currency;
+
+printf("Polling OpenExchange\n");
+try {
+    if (isset($argv[1])) {
+        Currency::update($argv[1]);
+        printf("Successfully polled OpenExchange with key as argument\n");
+    } else if (getenv('ABACUS_OPEN_EXCHANGE_KEY')) {
+        Currency::update();
+        printf("Successfully polled OpenExchange with environment variable\n");
+    } else {
+        printf("Please provide an OpenExchange key.\nSee https://github.com/elliotwms/Abacus for more details\n");
+    }
+} catch (Exception $e) {
+    printf("Could not fetch\n");
+}
