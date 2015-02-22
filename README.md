@@ -49,9 +49,35 @@ composer require elliotwms/abacus dev-master
 ```
 
 ### Polling the API
+
 Abacus depends on data retrieved from the [Open Exchange Rates](https://openexchangerates.org/)
 API. In order to use Abacus fully, you must poll the API using your own API key. Abacus will look
-for an environment variable named `ABACUS_OPEN_EXCHANGE_KEY` and can be polled like so:
+for an environment variable named `ABACUS_OPEN_EXCHANGE_KEY` and can be polled in several ways.
+
+I recommend setting up a CRON service to poll the Open Exchange hourly in order to keep an up to
+date record of the currency exchange rates. At the time of writing, the free tier of the Open
+Exchange Rates API allows for 1,000 calls per month and there are 744 hours in a month so you're
+sorted. It would be fruitless to poll more than once an hour on the free tier as the information
+is updated hourly.
+
+If you want more up-to-the-minute exchange rates, I highly recommend
+[signing up for a paid plan](//openexchangerates.org/signup)
+
+#### Using the included script
+
+Abacus includes a shell script to minimize the setup process.
+
+You can call it like so (with absolute filepaths for your CRON service) from the root of your
+project directory:
+
+    php vendor/bin/abacus
+
+By default it will use the `ABACUS_OPEN_EXCHANGE_KEY` environment variable, but if you need to
+specify it manually you can pass it as an argument:
+
+    php vendor/bin/abacus my_super_secret_api_key
+
+#### Doing it manually
 
 ```PHP
 Currency::update();
@@ -62,12 +88,3 @@ Abacus will also accept an API key directly:
 ```PHP
 Currency::update('my_api_key');
 ```
-
-I recommend setting up a CRON service to poll the Open Exchange hourly in order to keep an up to
-date record of the currency exchange rates. At the time of writing, the free tier of the Open
-Exchange Rates API allows for 1,000 calls per month and there are 744 hours in a month so you're
-sorted. It would be fruitless to poll more than once an hour on the free tier as the information
-is updated hourly.
-
-If you want more up-to-the-minute exchange rates, I highly recommend
-[signing up for a paid plan](//openexchangerates.org/signup)
