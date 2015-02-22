@@ -20,5 +20,5 @@
       "Abacus\\": "src"
     }
   },
-  "bin": ["bin/abacus.php"]
+  "bin": ["bin/abacus"]
 }
