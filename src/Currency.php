@@ -27,6 +27,8 @@ class Currency
      * Create a new Currency object
      *
      * @param string $currency The currency's ISO code
+     *
+     * @throws AbacusException
      */
     public function __construct($currency = "USD")
     {
@@ -99,7 +101,7 @@ class Currency
      *
      * @throws AbacusException
      *
-     * @return array|false
+     * @return OpenExchangeResponse|false
      */
     private static function _fetchAPI($key)
     {
