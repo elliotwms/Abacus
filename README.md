@@ -15,7 +15,7 @@ Once Abacus has been [set up successfully](#installation), it can be used like s
 ```PHP
 $abacus = new Abacus(1250.00);          // Create a new Abacus object. Defaults to USD
 echo $abacus;                           // "1250.00"
-echo $abacus->format();                 // "£1,250.00"
+echo $abacus->format();                 // "$1,250.00"
 echo $abacus->value                     // 1250
 
 $abacus->to("USD");                     // Convert USD to GBP
