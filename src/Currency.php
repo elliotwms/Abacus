@@ -31,6 +31,11 @@ class Currency
     public function __construct($currency = "USD")
     {
         // Get the Currency object from the exchange.json file
+
+        if (!file_exists(__DIR__.'/../storage/exchange.json')) {
+            throw new AbacusException("Exchange rates not found. Please poll");
+        }
+
         $exchange = json_decode(file_get_contents(__DIR__ . '/../storage/exchange.json'));
 
         // Transform the $currency variable into an instance of
