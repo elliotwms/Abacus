@@ -96,7 +96,7 @@ class Abacus
             if (isset($currency)) {
                 $value = new Abacus($value, $currency);
             } else {
-                $value = new Abacus($value, $this->currency->code);
+                $value = new Abacus($value, $this->currency);
             }
             return $this->add($value);
         }
