@@ -34,7 +34,7 @@ class Currency
     {
         // Get the Currency object from the exchange.json file
 
-        if (!file_exists(__DIR__.'/../storage/exchange.json')) {
+        if (!file_exists(__DIR__ . '/../storage/exchange.json')) {
             throw new AbacusException("Exchange rates not found. Please poll");
         }
 

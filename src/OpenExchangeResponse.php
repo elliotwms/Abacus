@@ -9,7 +9,8 @@ namespace Abacus;
  *
  * @package Abacus
  */
-class OpenExchangeResponse {
+class OpenExchangeResponse
+{
     /**
      * @var \StdClass
      */
