@@ -47,6 +47,9 @@ class Abacus
     /**
      * Typecast to string
      *
+     * Should return the value in its most basic form for humans to do with
+     * as they please
+     *
      * @return string
      */
     public function __toString()
@@ -81,8 +84,8 @@ class Abacus
      * of any currency to the current abacus object. Either way, this results
      * in an Abacus object of the original currency
      *
-     * @param Abacus|float $value
-     * @param Currency|string|null $currency
+     * @param Abacus|float $value Monetary value of the number added
+     * @param Currency|string|null $currency Currency of the number added
      * @return $this
      */
     public function add($value, $currency = null)
@@ -91,18 +94,21 @@ class Abacus
             // If adding an Abacus object
             // Convert the object to the current object's currency and
             // add it to the current object
-            $this->value += $value->to($this->currency->code)->value;
+
+            $result = $this->value + $value->to($this->currency->code)->value;
+
+            // Return a new Abacus object
+            return new Abacus($result, $this->currency);
         } else {
+            // If we're dealing with a different currency
             if (isset($currency)) {
                 $value = new Abacus($value, $currency);
             } else {
                 $value = new Abacus($value, $this->currency);
             }
+            // Call Add properly with some recursive magic
             return $this->add($value);
         }
-
-        // Return the object
-        return $this;
     }
 
     /**
@@ -118,18 +124,15 @@ class Abacus
     {
         // If we're not using a custom Currency model
         if (!is_a($currency, "Abacus\\Currency")) {
-            // Make a new Currency model
+            // Make a new Currency model of the target
             $currency = new Currency($currency);
         }
 
         // New currency = Current / rate * new rate
-        $this->value = $this->value / $this->currency->rate * $currency->rate;
-
-        // Update the currency of the Abacus model
-        $this->currency = $currency;
+        $value = $this->value / $this->currency->rate * $currency->rate;
 
         // Return the new Abacus object
-        return $this;
+        return new Abacus($value, $currency);
     }
 
 }

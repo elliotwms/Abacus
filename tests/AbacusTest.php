@@ -132,4 +132,26 @@ class AbacusTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(-1, $result->value);
     }
 
+    /**
+     * Immutability
+     *
+     * Addition and subtraction should be immutable, IE not
+     * changing the Abacus objects themselves but producing
+     * new ones to play with
+     */
+    public function testImmutability()
+    {
+        $a = new Abacus(100);
+        $b = $a->add(200);
+
+        $this->assertEquals(100, $a->value);
+        $this->assertEquals(300, $b->value);
+
+        $c = new Abacus(300);
+        $d = $c->sub(200);
+
+        $this->assertEquals(300, $c->value);
+        $this->assertEquals(100, $d->value);
+    }
+
 }
