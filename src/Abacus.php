@@ -135,4 +135,17 @@ class Abacus
         return new Abacus($value, $currency);
     }
 
+    /**
+     * To Cents
+     *
+     * Produce a cent value of the result for handing off to
+     * payment processors and integer nerds
+     *
+     * @return int
+     */
+    public function toCents()
+    {
+        return round($this->value * 100, 0, PHP_ROUND_HALF_DOWN);
+    }
+
 }
