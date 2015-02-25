@@ -12,7 +12,8 @@
   "require": {},
   "require-dev": {
     "phpunit/phpunit": "4.0.*",
-    "vlucas/phpdotenv": "~1.1"
+    "vlucas/phpdotenv": "~1.1",
+    "codeclimate/php-test-reporter": "dev-master"
 
   },
   "autoload": {

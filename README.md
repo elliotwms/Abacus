@@ -5,6 +5,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/elliotwms/abacus/v/unstable.svg)](https://packagist.org/packages/elliotwms/abacus)
 [![Total Downloads](https://poser.pugx.org/elliotwms/abacus/downloads.svg)](https://packagist.org/packages/elliotwms/abacus)
 [![License](https://poser.pugx.org/elliotwms/abacus/license.svg)](https://packagist.org/packages/elliotwms/abacus)
+[![Code Climate](https://codeclimate.com/github/elliotwms/Abacus/badges/gpa.svg)](https://codeclimate.com/github/elliotwms/Abacus)
+[![Test Coverage](https://codeclimate.com/github/elliotwms/Abacus/badges/coverage.svg)](https://codeclimate.com/github/elliotwms/Abacus)
 
 PHP currency manipulation package from the future. Still in very early development.
 
