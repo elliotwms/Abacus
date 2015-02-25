@@ -95,7 +95,7 @@ class Abacus
             // Convert the object to the current object's currency and
             // add it to the current object
 
-            $result = $this->value + $value->to($this->currency->code)->value;
+            $result = $this->value + $value->toCurrency($this->currency)->value;
 
             // Return a new Abacus object
             return new Abacus($result, $this->currency);
@@ -120,7 +120,7 @@ class Abacus
      *
      * @return Abacus $this
      */
-    public function to($currency)
+    public function toCurrency($currency)
     {
         // If we're not using a custom Currency model
         if (!is_a($currency, "Abacus\\Currency")) {

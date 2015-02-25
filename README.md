@@ -20,7 +20,7 @@ echo $abacus;                           // "1250.00"
 echo $abacus->format();                 // "$1,250.00"
 echo $abacus->value                     // 1250
 
-$abacus->to("GBP");                     // Convert USD to GBP
+$abacus->toCurrency("GBP");                     // Convert USD to GBP
 
 $abacus->add(20);                       // Addition
 $abacus->add(10, "GBP");                // Addition of a value in another currency
