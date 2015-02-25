@@ -38,7 +38,9 @@
 <a href="https://packagist.org/packages/elliotwms/abacus"><img src="https://poser.pugx.org/elliotwms/abacus/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/elliotwms/abacus"><img src="https://poser.pugx.org/elliotwms/abacus/v/unstable.svg" alt="Latest Unstable Version"></a>
 <a href="https://packagist.org/packages/elliotwms/abacus"><img src="https://poser.pugx.org/elliotwms/abacus/downloads.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/elliotwms/abacus"><img src="https://poser.pugx.org/elliotwms/abacus/license.svg" alt="License"></a></p>
+<a href="https://packagist.org/packages/elliotwms/abacus"><img src="https://poser.pugx.org/elliotwms/abacus/license.svg" alt="License"></a>
+<a href="https://codeclimate.com/github/elliotwms/Abacus"><img src="https://codeclimate.com/github/elliotwms/Abacus/badges/gpa.svg" alt="Code Climate"></a>
+<a href="https://codeclimate.com/github/elliotwms/Abacus"><img src="https://codeclimate.com/github/elliotwms/Abacus/badges/coverage.svg" alt="Test Coverage"></a></p>
 
 <p>PHP currency manipulation package from the future. Still in very early development.</p>
 
@@ -49,10 +51,10 @@
 
 <div class="highlight highlight-PHP"><pre><span class="pl-s2"><span class="pl-vo">$abacus</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-s3">Abacus</span>(<span class="pl-c1">1250.00</span>);          <span class="pl-c">// Create a new Abacus object. Defaults to USD</span></span>
 <span class="pl-s2"><span class="pl-s3">echo</span> <span class="pl-vo">$abacus</span>;                           <span class="pl-c">// "1250.00"</span></span>
-<span class="pl-s2"><span class="pl-s3">echo</span> <span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>format();                 <span class="pl-c">// "£1,250.00"</span></span>
+<span class="pl-s2"><span class="pl-s3">echo</span> <span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>format();                 <span class="pl-c">// "$1,250.00"</span></span>
 <span class="pl-s2"><span class="pl-s3">echo</span> <span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span><span class="pl-vo">value</span>                     <span class="pl-c">// 1250</span></span>
 <span class="pl-s2"></span>
-<span class="pl-s2"><span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>to(<span class="pl-s1"><span class="pl-pds">"</span>USD<span class="pl-pds">"</span></span>);                     <span class="pl-c">// Convert USD to GBP</span></span>
+<span class="pl-s2"><span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>to(<span class="pl-s1"><span class="pl-pds">"</span>GBP<span class="pl-pds">"</span></span>);                     <span class="pl-c">// Convert USD to GBP</span></span>
 <span class="pl-s2"></span>
 <span class="pl-s2"><span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>add(<span class="pl-c1">20</span>);                       <span class="pl-c">// Addition</span></span>
 <span class="pl-s2"><span class="pl-vo">$abacus</span><span class="pl-k">-&gt;</span>add(<span class="pl-c1">10</span>, <span class="pl-s1"><span class="pl-pds">"</span>GBP<span class="pl-pds">"</span></span>);                <span class="pl-c">// Addition of a value in another currency</span></span>
@@ -83,13 +85,7 @@ file:</p>
 
 <p>Abacus depends on data retrieved from the <a href="https://openexchangerates.org/">Open Exchange Rates</a>
 API. In order to use Abacus fully, you must poll the API using your own API key. Abacus will look
-for an environment variable named <code>ABACUS_OPEN_EXCHANGE_KEY</code> and can be polled like so:</p>
-
-<div class="highlight highlight-PHP"><pre><span class="pl-s2"><span class="pl-s3">Currency</span><span class="pl-k">::</span>update();</span></pre></div>
-
-<p>Abacus will also accept an API key directly:</p>
-
-<div class="highlight highlight-PHP"><pre><span class="pl-s2"><span class="pl-s3">Currency</span><span class="pl-k">::</span>update(<span class="pl-s1"><span class="pl-pds">'</span>my_api_key<span class="pl-pds">'</span></span>);</span></pre></div>
+for an environment variable named <code>ABACUS_OPEN_EXCHANGE_KEY</code> and can be polled in several ways.</p>
 
 <p>I recommend setting up a CRON service to poll the Open Exchange hourly in order to keep an up to
 date record of the currency exchange rates. At the time of writing, the free tier of the Open
@@ -99,6 +95,32 @@ is updated hourly.</p>
 
 <p>If you want more up-to-the-minute exchange rates, I highly recommend
 <a href="//openexchangerates.org/signup">signing up for a paid plan</a></p>
+
+<h4>
+<a id="using-the-included-script" class="anchor" href="#using-the-included-script" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using the included script</h4>
+
+<p>Abacus includes a shell script to minimize the setup process.</p>
+
+<p>You can call it like so (with absolute filepaths for your CRON service) from the root of your
+project directory:</p>
+
+<pre><code>php vendor/bin/abacus
+</code></pre>
+
+<p>By default it will use the <code>ABACUS_OPEN_EXCHANGE_KEY</code> environment variable, but if you need to
+specify it manually you can pass it as an argument:</p>
+
+<pre><code>php vendor/bin/abacus my_super_secret_api_key
+</code></pre>
+
+<h4>
+<a id="doing-it-manually" class="anchor" href="#doing-it-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Doing it manually</h4>
+
+<div class="highlight highlight-PHP"><pre><span class="pl-s2"><span class="pl-s3">Currency</span><span class="pl-k">::</span>update();</span></pre></div>
+
+<p>Abacus will also accept an API key directly:</p>
+
+<div class="highlight highlight-PHP"><pre><span class="pl-s2"><span class="pl-s3">Currency</span><span class="pl-k">::</span>update(<span class="pl-s1"><span class="pl-pds">'</span>my_api_key<span class="pl-pds">'</span></span>);</span></pre></div>
       </section>
     </div>
 
