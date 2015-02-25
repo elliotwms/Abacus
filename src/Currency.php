@@ -34,6 +34,23 @@ class Currency
     {
         // Get the Currency object from the exchange.json file
 
+        $currency = $this->_getCurrency($currency);
+
+        // Get the attributes from the currency JSON object
+        $this->_mapCurrency($currency);
+    }
+
+    /**
+     * Get Currency
+     *
+     * Gets a currency from the exchange.json
+     *
+     * @param $currency
+     * @return mixed
+     * @throws AbacusException
+     */
+    private function _getCurrency($currency)
+    {
         if (!file_exists(__DIR__ . '/../storage/exchange.json')) {
             throw new AbacusException("Exchange rates not found. Please poll");
         }
@@ -42,9 +59,19 @@ class Currency
 
         // Transform the $currency variable into an instance of
         // currency object from the ol' JSON file
-        $currency = $exchange->currencies->$currency;
 
-        // Get the attributes from the currency JSON object
+        if (!isset($exchange->currencies->$currency)) {
+            throw new AbacusException("Currency not found");
+        }
+
+        // Get the DateTime for when the exchange was updated last
+        $this->updated_at = $exchange->updated;
+
+        return $exchange->currencies->$currency;
+    }
+
+    private function _mapCurrency($currency)
+    {
         $this->rate = $currency->rate;
         $this->decimal_separator = '.';
         $this->thousands_separator = ',';
@@ -56,9 +83,6 @@ class Currency
         $this->rounding = $currency->rounding;
         $this->code = $currency->code;
         $this->name_plural = $currency->name_plural;
-
-        // Get the DateTime for when the exchange was updated last
-        $this->updated_at = $exchange->updated;
     }
 
     /**
@@ -111,8 +135,8 @@ class Currency
 
         $url = "http://openexchangerates.org/api/latest.json?app_id=$key";
 
-        $ch = curl_init($url);
-        curl_setopt_array($ch, [
+        $curl = curl_init($url);
+        curl_setopt_array($curl, [
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HEADER => false,
             CURLOPT_FOLLOWLOCATION => true,
@@ -124,14 +148,14 @@ class Currency
             CURLOPT_MAXREDIRS => 10
         ]);
 
-        $result = curl_exec($ch);
+        $result = curl_exec($curl);
 
-        if (curl_errno($ch)) {
+        if (curl_errno($curl)) {
             return false;
         };
 
         // Must have a correct API key in order to function properly
-        if (curl_getinfo($ch, CURLINFO_HTTP_CODE) === 401) {
+        if (curl_getinfo($curl, CURLINFO_HTTP_CODE) === 401) {
             throw new AbacusException("Incorrect or undefined API key");
         }
 
