@@ -8,18 +8,56 @@ namespace Abacus;
  */
 class Currency
 {
+    /**
+     * @var string
+     */
     public $name = 'US Dollar';         // Common singular currency name
+
+    /**
+     * @var string
+     */
     public $name_plural = 'US Dollars'; // Common plural currency name
+
+    /**
+     * @var string
+     */
     public $code = 'USD';               // ISO code
+
+    /**
+     * @var string
+     */
     public $symbol = '$';               // Standard currency symbol ($/£/€)
+
+    /**
+     * @var string
+     */
     public $symbol_native = '$';        // Locally used currency symbol
 
+    /**
+     * @var float
+     */
     public $rate = 1;                   // The currency's rate to USD
 
+    /**
+     * @var string
+     */
     public $thousands_separator = ',';  // Thousands separator for formatting
+
+    /**
+     * @var string
+     */
     public $decimal_separator = '.';    // Decimal separator for formatting
+
+    /**
+     * @var int
+     */
     public $decimal_digits = 2;         // How many decimal digits to display
+
+    /**
+     * @var int
+     */
     public $rounding = 0;               // Currency rounding method
+    public $updated_at;                 // When the currency was last updated
 
     /**
      * __construct
@@ -190,7 +228,7 @@ class Currency
     {
         $file = new \stdClass();
 
-        $file->updated = (new \DateTime)->setTimestamp($timestamp);
+        $file->updated = (new \DateTime('UTC'))->setTimestamp($timestamp);
         $file->currencies = $currencies;
 
         return file_put_contents(__DIR__ . "/../storage/exchange.json", json_encode($file));
