@@ -26,7 +26,7 @@ class AbacusTest extends PHPUnit_Framework_TestCase
         $this->assertInternalType('int', $result);
 
         // It should have make a file in this location
-        $this->assertFileExists(__DIR__ . "/../storage/exchange.json");
+        $this->assertFileExists(sys_get_temp_dir() . "/abacus_exchange.json");
     }
 
     /**

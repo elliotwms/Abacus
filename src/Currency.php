@@ -71,7 +71,6 @@ class Currency
     public function __construct($currency = "USD")
     {
         // Get the Currency object from the exchange.json file
-
         $currency = $this->_getCurrency($currency);
 
         // Get the attributes from the currency JSON object
@@ -89,11 +88,11 @@ class Currency
      */
     private function _getCurrency($currency)
     {
-        if (!file_exists(__DIR__ . '/../storage/exchange.json')) {
+        if (!file_exists(static::_getExchangePath())) {
             throw new AbacusException("Exchange rates not found. Please poll");
         }
 
-        $exchange = json_decode(file_get_contents(__DIR__ . '/../storage/exchange.json'));
+        $exchange = json_decode(file_get_contents(static::_getExchangePath()));
 
         // Transform the $currency variable into an instance of
         // currency object from the ol' JSON file
@@ -126,7 +125,7 @@ class Currency
     /**
      * Update Abacus's exchange rates
      *
-     * Update the contents of storage/exchange.json by polling the
+     * Update the contents of abacus_exchange.json by polling the
      * OpenExchangeRates API, getting the currencies in currencies.json
      * and combining the two.
      *
@@ -217,7 +216,7 @@ class Currency
      * Set Currencies
      *
      * Write the currencies, along with their exchange rates to
-     * the exchange.json file in the ~/storage directory.
+     * the exchange.json file in the temp directory.
      *
      * @param \stdClass $currencies
      * @param int|null $timestamp
@@ -231,6 +230,18 @@ class Currency
         $file->updated = (new \DateTime('UTC'))->setTimestamp($timestamp);
         $file->currencies = $currencies;
 
-        return file_put_contents(__DIR__ . "/../storage/exchange.json", json_encode($file));
+        return file_put_contents(static::_getExchangePath(), json_encode($file));
+    }
+
+    /**
+     * Get Exchange Path
+     *
+     * Get the path of the abacus_exchange.json file which contains the polled exchange information
+     *
+     * @return string
+     */
+    private static function _getExchangePath()
+    {
+        return sys_get_temp_dir() . "/abacus_exchange.json";
     }
 }
