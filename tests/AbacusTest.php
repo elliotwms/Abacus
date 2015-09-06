@@ -160,6 +160,13 @@ class AbacusTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals(300, $c->value);
         $this->assertEquals(100, $d->value);
+
+        // Should also work with chaining
+        $e = new Abacus(1);
+        $f = $e->add(1)->add(1)->add(1);
+
+        $this->assertEquals(1, $e->value);
+        $this->assertEquals(4, $f->value);
     }
 
 }
