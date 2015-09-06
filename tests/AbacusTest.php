@@ -104,6 +104,10 @@ class AbacusTest extends PHPUnit_Framework_TestCase
 
         $result = (new Abacus(1))->add(new Abacus(2, "USD"));
         $this->assertEquals(3, $result->value);
+
+        $currency = new Currency();
+        $result = (new Abacus(1))->add(new Abacus(2, $currency));
+        $this->assertEquals(3, $result->value);
     }
 
     /**
@@ -129,6 +133,10 @@ class AbacusTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(1.5, $result->value);
 
         $result = (new Abacus(1))->sub(new Abacus(2, "GBP"));
+        $this->assertEquals(-1, $result->value);
+
+        $currency = new Currency("GBP");
+        $result = (new Abacus(1))->sub(new Abacus(2, $currency));
         $this->assertEquals(-1, $result->value);
     }
 
