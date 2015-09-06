@@ -14,6 +14,7 @@ matrix:
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
+  - php bin/abacus
 
 script: phpunit --coverage-clover build/logs/clover.xml
 
