@@ -119,6 +119,25 @@ class AbacusTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(-1, $result->value);
     }
 
+
+    /**
+     * Test that a currency successfully converts to another currency
+     */
+    public function testConverts()
+    {
+        $dollars = new Abacus(100);
+
+        $pounds = $dollars->toCurrency("GBP");
+
+        $currency = $pounds->currency;
+
+        // The new object's currency should be a Currency object
+        $this->assertInstanceOf('Abacus\Currency', $currency);
+
+        // And it should also be in GBP
+        $this->assertAttributeEquals('GBP', 'code', $currency);
+    }
+
     /**
      * Immutability
      *
