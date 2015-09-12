@@ -102,7 +102,7 @@ class Currency
         }
 
         // Get the DateTime for when the exchange was updated last
-        $this->updated_at = $exchange->updated;
+        $this->updated_at = new \DateTimeImmutable($exchange->updated->date);
 
         return $exchange->currencies->$currency;
     }
