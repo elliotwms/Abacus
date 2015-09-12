@@ -1,7 +1,5 @@
 /vendor
 composer.lock
 .idea
-index.php
-storage/exchange.json
 .env
 build
