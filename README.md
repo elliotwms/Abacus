@@ -40,7 +40,7 @@ file:
 ```JSON
 {
     "require": {
-        "elliotwms/abacus": "dev-master"
+        "elliotwms/abacus": "0.1.*"
     }
 }
 ```
@@ -91,3 +91,33 @@ Abacus will also accept an API key directly:
 ```PHP
 Currency::update('my_api_key');
 ```
+
+# Contributing
+
+Abacus uses test driven development, which means that in order to write a feature, you need to write a test for that feature. You're going to need to do a few things to get this up and running:
+
+* Install the development dependencies with `composer install`
+
+* Set your `ABACUS_OPEN_EXCHANGE_KEY` as an environment variable. You can do this in a bash shell with:
+
+```bash
+export ABACUS_OPEN_EXCHANGE_KEY=your_abacus_api_key
+echo $ABACUS_OPEN_EXCHANGE_KEY
+```
+
+* Poll the service with PHP to seed the exchange data:
+ 
+ ```bash
+ php bin/abacus
+ ```
+ 
+ You should see something similar to the following:
+ 
+ ```
+ Polling OpenExchange
+ Successfully polled OpenExchange with environment variables
+ ```
+ 
+ * Run PHPUnit. If something didn't pass then you may have not set up your exchange data correctly.
+ 
+ From here you can write tests and run PHPUnit to test them, and off you go!
