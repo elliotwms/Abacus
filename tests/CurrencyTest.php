@@ -1,6 +1,7 @@
 <?php
 
 use Abacus\Currency;
+use Abacus\AbacusException;
 
 class CurrencyTest extends PHPUnit_Framework_TestCase
 {
@@ -23,5 +24,48 @@ class CurrencyTest extends PHPUnit_Framework_TestCase
 
         // It should have make a file in this location
         $this->assertFileExists(sys_get_temp_dir() . "/abacus_exchange.json");
+    }
+
+    /**
+     * @expectedException Abacus\AbacusException
+     * @expectedExceptionMessage Undefined API key
+     */
+    public function testFailsToPollWithUndefinedKey()
+    {
+        Currency::update('');
+    }
+
+    /**
+     * @expectedException Abacus\AbacusException
+     * @expectedExceptionMessage Invalid API key
+     */
+    public function testFailsToPollWithIncorrectKey()
+    {
+        Currency::update('invalid_key');
+    }
+
+
+    /**
+     * When a currency is instantiated it should have a certain selection of attributes
+     */
+    public function testInstantiates()
+    {
+        $currency = new Currency();
+
+        $this->assertObjectHasAttribute("name", $currency);
+        $this->assertObjectHasAttribute("name_plural", $currency);
+        $this->assertObjectHasAttribute("code", $currency);
+        $this->assertObjectHasAttribute("symbol", $currency);
+        $this->assertObjectHasAttribute("symbol_native", $currency);
+    }
+
+
+    /**
+     * @expectedException Abacus\AbacusException
+     * @expectedExceptionMessage Currency not found
+     */
+    public function testThrowsCurrencyNotFoundException()
+    {
+        $currency = new Currency('');
     }
 }

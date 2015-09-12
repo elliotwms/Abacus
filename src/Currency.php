@@ -170,6 +170,10 @@ class Currency
             $key = getenv('ABACUS_OPEN_EXCHANGE_KEY');
         }
 
+        if (!$key) {
+            throw new AbacusException('Undefined API key');
+        }
+
         $url = "http://openexchangerates.org/api/latest.json?app_id=$key";
 
         $curl = curl_init($url);
@@ -193,7 +197,7 @@ class Currency
 
         // Must have a correct API key in order to function properly
         if (curl_getinfo($curl, CURLINFO_HTTP_CODE) === 401) {
-            throw new AbacusException("Incorrect or undefined API key");
+            throw new AbacusException("Invalid API key");
         }
 
         return json_decode($result);
