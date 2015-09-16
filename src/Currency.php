@@ -177,7 +177,7 @@ class Currency
         $url = "http://openexchangerates.org/api/latest.json?app_id=$key";
 
         $curl = curl_init($url);
-        curl_setopt_array($curl, [
+        curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HEADER => false,
             CURLOPT_FOLLOWLOCATION => true,
@@ -187,7 +187,7 @@ class Currency
             CURLOPT_CONNECTTIMEOUT => 10,
             CURLOPT_TIMEOUT => 10,
             CURLOPT_MAXREDIRS => 10
-        ]);
+        ));
 
         $result = curl_exec($curl);
 
